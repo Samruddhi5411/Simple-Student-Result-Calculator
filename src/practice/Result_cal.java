@@ -9,12 +9,12 @@ public class Result_cal {
 	    System.out.println("Enter Student Name");
 		Scanner sc = new Scanner(System.in);
 		String studentName = sc.nextLine();
-		String remark;
+		
 		System.out.println("Enter Roll No");
 		int rollNo = sc.nextInt();
 		
 		double totalMark;
-	    char grade ;
+	   
 		int sub1Mark , sub2Mark , sub3Mark , sub4Mark , sub5Mark;
 	   while(true) {
 		 System.out.println("Enter marks for 5 subjects");
@@ -33,13 +33,15 @@ public class Result_cal {
 		}
 		
 	   }	
-	   System.out.println("Student Name : " + studentName );
-		System.out.println("Roll No. : " + rollNo);
+	   
 		 totalMark = sub1Mark + sub2Mark + sub3Mark + sub4Mark + sub5Mark;
-		 System.out.println("TotalMark : " + totalMark);
-	     double avg = totalMark / 5 ; 
-	     System.out.println("Average : " + avg);
-	     if(sub1Mark<7 || sub2Mark < 7 || sub3Mark < 7 || sub4Mark < 7 || sub5Mark <7 && totalMark < 40 ) {
+		 System.out.println(" Student Name : " + studentName );
+		System.out.println(" Roll No. : " + rollNo);
+		 System.out.println(" TotalMark : " + totalMark);
+	     double percentage = (totalMark /100.0)*100 ; 
+	     System.out.printf(" Percentage : %.2f%%\n " , percentage , "%");
+	     char grade;
+	     if(sub1Mark<7 || sub2Mark < 7 || sub3Mark < 7 || sub4Mark < 7 || sub5Mark <7) {
 	    	 grade = 'F';
 	     }else if(totalMark >= 90 ) {
 	    	 grade = 'A';
@@ -55,6 +57,7 @@ public class Result_cal {
 	    	 grade = 'F';
 	    	System.out.println("Study Hard!!");
 	     }
+	     String remark;
 		switch(grade) {
 		case 'A':
 			  remark = "Excellent";
@@ -75,9 +78,11 @@ public class Result_cal {
 			  remark = " Fail";
 			  break;	
 		default :
+			remark = "Invalid";
 			System.out.println("Study Hard");
 		}
-       
+       System.out.println("Grade : " + grade);
+       System.out.println(" Remark : " + remark);
 	}
 
 	
