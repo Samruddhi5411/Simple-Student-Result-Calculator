@@ -2,7 +2,7 @@ package practice;
 
 import java.util.Scanner;
 
-public class Result_cal {
+public class ResultCal {
 
 	public static void main(String[] args) {
 
@@ -83,6 +83,7 @@ public class Result_cal {
 		}
        System.out.println("Grade : " + grade);
        System.out.println(" Remark : " + remark);
+    
 	}
 
 	
