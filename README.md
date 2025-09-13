@@ -20,5 +20,12 @@
 
 ▶️ How to Run
 1. Clone the repository
-        git clone 
+        git clone https://github.com/Samruddhi5411/Simple-Student-Result-Calculator.git
+
+2. Open the project in your IDE (Eclipse, IntelliJ, or VS Code)
+3. Run the file:
+        ResultCal.java
+4. Enter details and marks when prompted   
+
+        
        
