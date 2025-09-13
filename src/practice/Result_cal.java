@@ -2,7 +2,7 @@ package practice;
 
 import java.util.Scanner;
 
-public class ResultCal {
+public class Result_cal {
 
 	public static void main(String[] args) {
 
