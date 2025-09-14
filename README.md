@@ -55,6 +55,15 @@
 
 ● F: Below 40 or any subject < 7 → Fail
 
+📸 Output
+
+<img width="1427" height="872" alt="Screenshot (41)" src="https://github.com/user-attachments/assets/4fe6ce56-fa8e-4bb4-bd00-3dbcc97ad5ef" />
+
+<img width="1429" height="854" alt="Screenshot (42)" src="https://github.com/user-attachments/assets/a9e53766-bf0f-416c-8ae9-714580b3184a" />
+
+<img width="1427" height="854" alt="Screenshot (40)" src="https://github.com/user-attachments/assets/805e67e7-a992-4a6f-a63f-8afb799e048e" />
+
+
 🤝 Contributing
 
 This is my practice project, so contributions are not expected — but suggestions for improvements are welcome!
