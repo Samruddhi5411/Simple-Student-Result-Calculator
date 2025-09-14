@@ -38,8 +38,8 @@ public class ResultCal {
 		 System.out.println(" Student Name : " + studentName );
 		System.out.println(" Roll No. : " + rollNo);
 		 System.out.println(" TotalMark : " + totalMark);
-	     double percentage = (totalMark /100.0)*100 ; 
-	     System.out.printf(" Percentage : %.2f%%\n " , percentage , "%");
+//	     double percentage = (totalMark /100.0)*100 ; 
+//	     System.out.printf(" Percentage : %.2f%%\n " , percentage , "%");
 	     char grade;
 	     if(sub1Mark<7 || sub2Mark < 7 || sub3Mark < 7 || sub4Mark < 7 || sub5Mark <7) {
 	    	 grade = 'F';
