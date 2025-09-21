@@ -40,7 +40,7 @@ public class ResultCal {
 		 System.out.println(" TotalMark : " + totalMark);
 	
 	     char grade;
-	     if(sub1Mark<7 || sub2Mark < 7 || sub3Mark < 7 || sub4Mark < 7 || sub5Mark <7) {
+	     if(sub1Mark <7 || sub2Mark < 7 || sub3Mark < 7 || sub4Mark < 7 || sub5Mark <7) {
 	    	 grade = 'F';
 	     }else if(totalMark >= 90 ) {
 	    	 grade = 'A';
@@ -80,7 +80,7 @@ public class ResultCal {
 			remark = "Invalid";
 			System.out.println("Study Hard");
 		}
-       System.out.println("Grade : " + grade);
+       System.out.println(" Grade : " + grade);
        System.out.println(" Remark : " + remark);
     
 	}
