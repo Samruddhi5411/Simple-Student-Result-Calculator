@@ -15,16 +15,16 @@ public class ResultCal {
 		
 		double totalMark;
 	   
-		int sub1Mark , sub2Mark , sub3Mark , sub4Mark , sub5Mark;
+		int subject1Mark , subject2Mark , subject3Mark , subject4Mark , subject5Mark;
 	   while(true) {
-		 System.out.println("Enter marks for 5 subjects");
-		 sub1Mark = sc.nextInt();
-		 sub2Mark = sc.nextInt();
-		 sub3Mark = sc.nextInt();
-		 sub4Mark = sc.nextInt();
-		 sub5Mark = sc.nextInt();
+		 System.out.println("Enter marks for 5 subjects (each out of 20)");
+		 subject1Mark = sc.nextInt();
+		 subject2Mark = sc.nextInt();
+		 subject3Mark = sc.nextInt();
+		 subject4Mark = sc.nextInt();
+		 subject5Mark = sc.nextInt();
 		
-		if(sub1Mark > 20 || sub2Mark > 20 ||sub3Mark > 20 || sub4Mark > 20 || sub5Mark > 20) {
+		if(subject1Mark > 20 || subject2Mark > 20 ||subject3Mark > 20 || subject4Mark > 20 || subject5Mark > 20) {
 			
 			System.out.println("Enter Valid Marks");	
 		} else {
@@ -34,13 +34,13 @@ public class ResultCal {
 		
 	   }	
 	   
-		 totalMark = sub1Mark + sub2Mark + sub3Mark + sub4Mark + sub5Mark;
+		 totalMark = subject1Mark + subject2Mark + subject3Mark + subject4Mark + subject5Mark;
 		 System.out.println(" Student Name : " + studentName );
 		System.out.println(" Roll No. : " + rollNo);
 		 System.out.println(" TotalMark : " + totalMark);
 	
 	     char grade;
-	     if(sub1Mark <7 || sub2Mark < 7 || sub3Mark < 7 || sub4Mark < 7 || sub5Mark <7) {
+	     if(subject1Mark <7 || subject2Mark < 7 || subject3Mark < 7 || subject4Mark < 7 || subject5Mark <7) {
 	    	 grade = 'F';
 	     }else if(totalMark >= 90 ) {
 	    	 grade = 'A';
